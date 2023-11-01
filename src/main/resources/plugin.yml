@@ -1,0 +1,4 @@
+name: NextronOnSteroids
+version: '${project.version}'
+main: dev.waradu.nextrononsteroids.NextronOnSteroids
+api-version: '1.20'
