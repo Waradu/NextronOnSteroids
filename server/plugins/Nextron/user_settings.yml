@@ -1,0 +1,14 @@
+621755d2-5cf7-48d6-acc6-73b539b66aac:
+  vanish:
+    message: true
+  feedback: true
+  allowtpas: true
+  nick: Waradu
+  lastpos:
+    ==: org.bukkit.Location
+    world: world
+    x: 322.6328500598239
+    y: 113.0
+    z: 40.619345155067606
+    pitch: 37.911148
+    yaw: 53.957

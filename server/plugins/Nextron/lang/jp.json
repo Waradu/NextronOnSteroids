@@ -1,0 +1,157 @@
+{
+  "language": "jp",
+  "console.activate": "§a正常に有効化されました",
+  "console.disabled": "§a正常に無効化されました",
+
+  "command.instance.error": "§6このコマンドはプレイヤーのみ実行できます！",
+  "no.perms": "§cこの操作を実行する権限がありません",
+  "invalid.player": "§cそのプレイヤーはオンラインではありません",
+
+  "homegui.leftclick": "§a左クリック §c>> §7ホーム設定を開く",
+  "homegui.rightclick": "§a右クリック §c>> §7ホームにテレポートする",
+
+  "warpgui.leftclick": "§a左クリック §c>> §7ワープ設定を開く",
+  "warpgui.rightclick": "§a右クリック §c>> §7ワープ先にテレポートする",
+
+  "homesettings.gui.feature": "§cこの機能はまだ利用できません",
+
+  "maingui.vanish.lore.1": "§8バニッシュを有効化/無効化するときに",
+  "maingui.vanish.lore.2": "§8フェイクな入退室メッセージを送信するかどうかを制御します",
+  "maingui.vanish.lore.3": "§8左クリック §c>> §7切り替え",
+
+  "maingui.tpa.lore.1": "§8他のプレイヤーからのTPAリクエストを許可するかどうかを制御します",
+
+  "maingui.feedback.lore.1": "§8コマンドの実行後にメッセージを送信するかどうかを制御します",
+  "maingui.feedback.lore.2": "§8例: 'ゲームモードがクリエイティブに設定されました'",
+  "maingui.feedback.lore.3": "§8エラーや重要なメッセージは表示されます",
+  "maingui.feedback.lore.4": "§8左クリック §c>> §7切り替え",
+
+  "maingui.no.homes": "§cホームが存在しません",
+  "maingui.no.warps": "§cワープポイントが存在しません",
+  "maingui.no.ranks": "§cランクが存在しません",
+
+  "fly.other.on": "§7%t に飛行を有効にしました",
+  "fly.other.off": "§7%t の飛行を無効にしました",
+  "fly.on": "§7飛行を有効にしました",
+  "fly.off": "§7飛行を無効にしました",
+
+  "heal.success": "§7回復しました",
+  "heal.error": "§c既に最大の体力または満腹度です",
+  "heal.other.success": "§a%p があなたを回復しました",
+  "heal.other.error": "§cプレイヤー %t は既に最大の体力または満腹度です",
+
+  "gamemode.success": "§7ゲームモードを %g に設定しました",
+  "gamemode.error": "§c既にゲームモードが %g です",
+  "gamemode.other.success": "§7%t のゲームモードを %g に設定しました",
+  "gamemode.other.error": "§cプレイヤー %t は既にゲームモードが %g です",
+  "gamemode.invalid": "§cそのゲームモードは存在しません",
+
+  "head.success": "§7%t の頭を入手しました",
+
+  "sethome.success": "§7ホーム %h を作成しました",
+  "sethome.error": "§cホーム %h は既に存在します",
+  "sethome.default.success": "§7デフォルトのホームを設定しました",
+  "delhome.success": "§7ホーム %h を削除しました",
+  "delhome.error": "§cホーム %h は存在しません",
+  "home.success": "§7ホーム %h にテレポートしました",
+  "home.error": "§cホーム %h は存在しません",
+  "home.default.success": "§7デフォルトのホームにテレポートしました",
+  "home.default.error": "§cデフォルトのホームが設定されていません",
+  "home.rename.request": "§7新しいホーム名をチャットに入力してください %h",
+  "home.rename.success": "§7ホーム %h の名前が %n に変更されました",
+  "home.reset.confirm": "§7古いホーム %r を上書きしますか",
+  "home.reset.success": "§7ホーム %h の位置を正常に移動しました",
+
+  "invsee.error": "§c自分自身にこのコマンドを実行することはできません",
+
+  "rank.remove.success": "§7プレイヤー %t のすべてのランクを削除しました",
+  "rank.set.success": "§a%p にランク %r を設定しました",
+  "rank.set.error": "§cプレイヤー %p は既にそのランクを持っています",
+  "rank.create.success": "§7ランク %r を作成しました",
+  "rank.delete.success": "§7ランク %r を削除しました",
+  "rank.setprefix.success": "§7ランク %r のプレフィックスは %p に変更されました",
+  "rank.setprefix.request": "§7新しい §aプレフィックス §7をチャットに入力してください",
+  "rank.rename.request": "§7ランク %r の新しい名前をチャットに入力してください",
+  "rank.rename.success": "§7ランク %r の名前が %n に変更されました",
+
+  "rank.dontexists": "§cその名前のランクは存在しません",
+  "rank.exists": "§cその名前のランクは既に存在します",
+
+  "speed.error": "§c値は10を超えることはできません",
+  "speed.fly.success": "§7飛行速度を %s に設定しました",
+  "speed.walk.success": "§7歩行速度を %s に設定しました",
+  "speed.reset": "§7速度がデフォルト値にリセットされました",
+  "speed.error.digit": "§c値は数字である必要があります",
+
+  "sudo.success": "§a%t が強制的にコマンド %b を実行しました",
+
+  "tpaccept.player.success": "§7プレイヤー %p にテレポートしました",
+  "tpaccept.target.success": "§a%t があなたにテレポートしました",
+  "tpaccept.error": "§c保留中のTPAリクエストはありません",
+
+  "tpa.sender.success": "§7プレイヤー %t にTPAリクエストを送信しました",
+  "tpa.target.success.1": "§a%p があなたにテレポートリクエストを送信しました",
+  "tpa.target.success.2": "§7リクエストを承諾するには §a/tpaccept §7を入力するか、ここをクリックしてください §c",
+  "tpa.error": "§c自分自身にTPAリクエストを送ることはできません",
+  "tpa.allow": "§cこのプレイヤーにTPAリクエストを送信できません。リクエストが無効化されています",
+
+  "tphere.success": "§a%t があなたにテレポートしました",
+  "tphere.error": "§c自分自身にテレポートすることはできません",
+
+  "vanish": "§7現在透明化しています",
+  "unvanish": "§7透明化を解除しました",
+  "vanish.other": "§a%t が透明化されました",
+  "unvanish.other": "§a%t が透明化されていません",
+
+  "setwarp.success": "§7ワープポイント %w を作成しました",
+  "setwarp.error": "§cワープポイント %w は既に存在します",
+  "delwarp.success": "§7ワープポイント %w を削除しました",
+  "delwarp.error": "§cワープポイント %w は存在しません",
+  "warp.success": "§7ワープポイント %w にテレポートしました",
+  "warp.error": "§cワープポイント %w は存在しません",
+  "warp.rename.request": "§7ワープポイント %w の新しい名前をチャットに入力してください",
+  "warp.rename.success": "§7ワープポイント %w の名前が %n に変更されました",
+
+  "featuregui.rank.off": "§8ランクシステムはすべてのプレイヤーに利用可能です！",
+  "featuregui.rank.on": "§8ランクシステムは現在一般プレイヤーには利用できません！",
+  "featuregui.warp.off": "§8ワープシステムはすべてのプレイヤーに利用可能です！",
+  "featuregui.warp.on": "§8ワープシステムは現在一般プレイヤーには利用できません！",
+  "featuregui.home.off": "§8ホームシステムはすべてのプレイヤーに利用可能です！",
+  "featuregui.home.on": "§8ホームシステムは現在一般プレイヤーには利用できません！",
+  "featuregui.tpa.off": "§8TPAシステムはすべてのプレイヤーに利用可能です！",
+  "featuregui.tpa.on": "§8TPAシステムは現在一般プレイヤーには利用できません！",
+  "leftclick": "§a左クリック §c>> §7切り替え",
+
+  "feature.validvalues": "§c第二引数は以下のいずれかである必要があります §4[warp.system, home.system, rank.system, tpa.system]",
+  "feature.enable": "§7%s システムが有効化されました",
+  "feature.disable": "§7%s システムが無効化されました",
+
+  "rename.error": "§cメインハンドにアイテムがありません",
+
+  "anvil.gui.one.word": "単語を1つだけ入力してください",
+
+  "rank.gui.not.ready": "§7ランクを作成する準備ができていません",
+  "rank.gui.ready": "§aランクを作成する準備が整っています",
+
+  "god.on": "§7ゴッドモードに切り替わりました",
+  "god.off": "§7ゴッドモードが解除されました",
+
+  "god.on.other": "§a%p はゴッドモードに切り替わりました",
+  "god.off.other": "§a%p はゴッドモードが解除されました",
+
+  "time.success": "§7時間が %d に設定されました",
+
+  "tpdeny.player": "§7プレイヤー %p のTPAリクエストを拒否しました",
+  "tpdeny.target": "§a%p があなたのTPAリクエストを拒否しました",
+
+  "back.other.success": "§a%p が最後の位置に戻されました",
+
+  "night.vision.add": "§7プレイヤー %p にナイトビジョンが付与されました",
+  "night.vision.remove": "§7プレイヤー %p のナイトビジョンが解除されました",
+
+  "language.set.success": "§7言語が %l に正常に設定されました\n変更を反映するには、サーバーで §a/rl §7を実行してください",
+  "language.set.error": "§c現在利用できる言語は %l のみです",
+
+  "world.success": "§7ワールド %w にテレポートしました",
+  "world.error": "§cそのワールドは存在しません"
+}

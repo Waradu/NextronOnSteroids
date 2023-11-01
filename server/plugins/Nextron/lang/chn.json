@@ -1,0 +1,157 @@
+{
+  "language": "chn",
+  "console.activate": "§a成功啟用",
+  "console.disabled": "§a已成功禁用",
+
+  "command.instance.error": "§6該命令只能由玩家運行！",
+  "no.perms": "§c您無權執行此操作",
+  "invalid.player": "§c該玩家不在線",
+
+  "homegui.leftclick": "§a左鍵點擊 §c>> §7打開家設置",
+  "homegui.rightclick": "§a右鍵點擊 §c>> §7傳送到家",
+
+  "warpgui.leftclick": "§a左鍵點擊 §c>> §7打開傳送點設置",
+  "warpgui.rightclick": "§a右鍵點擊 §c>> §7傳送到傳送點",
+
+  "homesettings.gui.feature": "§c此功能目前不可用",
+
+  "maingui.vanish.lore.1": "§8控制進入或離開隱身時是否發送假加入/離開",
+  "maingui.vanish.lore.2": "§8消息",
+  "maingui.vanish.lore.3": "§8點擊左鍵 §c>> §7切換",
+
+  "maingui.tpa.lore.1": "§8控制其他玩家是否能夠向您發送tpa請求",
+
+  "maingui.feedback.lore.1": "§8控制命令執行後是否發送消息",
+  "maingui.feedback.lore.2": "§8例如'切換到創造模式'。",
+  "maingui.feedback.lore.3": "§8錯誤和重要消息仍將顯示。",
+  "maingui.feedback.lore.4": "§8點擊左鍵 §c>> §7切換",
+
+  "maingui.no.homes": "§c您還沒有設置家",
+  "maingui.no.warps": "§c沒有傳送點",
+  "maingui.no.ranks": "§c沒有等級",
+
+  "fly.other.on": "§7已為玩家 §a%t §7啟用飛行",
+  "fly.other.off": "§7已為玩家 §a%t §7禁用飛行",
+  "fly.on": "§7已啟用飛行",
+  "fly.off": "§7已禁用飛行",
+
+  "heal.success": "§7您已經恢復健康",
+  "heal.error": "§c您已經處於最大生命值或滿飢餓狀態",
+  "heal.other.success": "§a%p §7已經恢復您的健康",
+  "heal.other.error": "§c玩家 §6%t §c已經處於最大生命值或滿飢餓狀態",
+
+  "gamemode.success": "§7遊戲模式已設置為 §a%g",
+  "gamemode.error": "§c您已經處於遊戲模式 §6%g",
+  "gamemode.other.success": "§7已將玩家 §a%t §7的遊戲模式設置為 §a%g",
+  "gamemode.other.error": "§c玩家 §6%t §c已經處於遊戲模式 §6%g",
+  "gamemode.invalid": "§c該遊戲模式不存在",
+
+  "head.success": "§7您獲得了 §a%t §7的頭顱",
+
+  "sethome.success": "§7您已創建名為 §a%h §7的家",
+  "sethome.error": "§c名稱為 §6%h §c的家已存在",
+  "sethome.default.success": "§7您已設置了 §a預設 §7家",
+  "delhome.success": "§7您已刪除名為 §a%h §7的家",
+  "delhome.error": "§c名為 §6%h §c的家不存在",
+  "home.success": "§7您已傳送到 §a%h",
+  "home.error": "§c名為 §6%h §c的家不存在",
+  "home.default.success": "§7您已傳送到您的 §a預設 §7家",
+  "home.default.error": "§c您從未設置過您的 §6預設 §c家",
+  "home.rename.request": "§7在聊天中輸入名稱以重新命名家 §a%h",
+  "home.rename.success": "§7已將家 §a%h §7的名稱更改為 §a%n",
+  "home.reset.confirm": "§7您確定要覆蓋舊的家 %r 嗎",
+  "home.reset.success": "§7家 §a%h §7的位置已成功移動",
+
+  "invsee.error": "§c您無法對自己使用該命令",
+
+  "rank.remove.success": "§7已從玩家 §a%t §7移除所有等級",
+  "rank.set.success": "§a%p §7已獲得等級 §a%r",
+  "rank.set.error": "§c玩家 §6%p §c已經擁有該等級",
+  "rank.create.success": "§7已創建名為 §a%r §7的等級",
+  "rank.delete.success": "§7已刪除名為 §a%r §7的等級",
+  "rank.setprefix.success": "§7等級 §a%r §7的前綴已更改為：§a%p",
+  "rank.setprefix.request": "§7在聊天中輸入新的§a前綴§7",
+  "rank.rename.request": "§7在聊天中輸入新的名稱以重新命名等級 §a%r §7",
+  "rank.rename.success": "§7已將等級 §a%r §7的名稱更改為 §a%n",
+
+  "rank.dontexists": "§c不存在該名稱的等級",
+  "rank.exists": "§c該名稱的等級已存在",
+
+  "speed.error": "§c數值不能超過10",
+  "speed.fly.success": "§7飛行速度已設置為 §a%s",
+  "speed.walk.success": "§7行走速度已設置為 §a%s",
+  "speed.reset": "§7您的速度已重置為默認值",
+  "speed.error.digit": "§c值必須是數字",
+
+  "sudo.success": "§a%t §7被強制運行 §a/%b",
+
+  "tpaccept.player.success": "§7您已傳送到 §a%p",
+  "tpaccept.target.success": "§a%t §7已被傳送到您的位置",
+  "tpaccept.error": "§c您沒有任何待處理的tpa請求",
+
+  "tpa.sender.success": "§7已向玩家 §a%t §7發送tpa請求",
+  "tpa.target.success.1": "§a%p §7已請求傳送到您的位置",
+  "tpa.target.success.2": "§7輸入 §a/tpaccept §7以接受他們的請求或點擊此處 §c",
+  "tpa.error": "§c您無法向自己發送tpa請求",
+  "tpa.allow": "§c您無法向此玩家發送tpa請求，因為他已禁用",
+
+  "tphere.success": "§a%t §7已傳送到您的位置",
+  "tphere.error": "§c您無法傳送到自己的位置",
+
+  "vanish": "§7您現在處於隱身模式",
+  "unvanish": "§7您不再處於隱身模式",
+  "vanish.other": "§a%t §7現在處於隱身模式",
+  "unvanish.other": "§a%t §7不再處於隱身模式",
+
+  "setwarp.success": "§7已創建名為 §a%w §7的傳送點",
+  "setwarp.error": "§c名稱為 §6%w §c的傳送點已存在",
+  "delwarp.success": "§7已刪除傳送點 §a%w",
+  "delwarp.error": "§c沒有名稱為 §6%w §c的傳送點",
+  "warp.success": "§7您已傳送到 §a%w",
+  "warp.error": "§c名為 §6%w §c的傳送點不存在",
+  "warp.rename.request": "§7在聊天中輸入新的名稱以重新命名傳送點 §a%w §7",
+  "warp.rename.success": "§7已將傳送點 §a%w §7的名稱更改為 §a%n",
+
+  "featuregui.rank.off": "§8等級系統現在可以供所有玩家使用！",
+  "featuregui.rank.on": "§8等級系統現在無法供普通玩家使用！",
+  "featuregui.warp.off": "§8傳送點系統現在可以供所有玩家使用！",
+  "featuregui.warp.on": "§8傳送點系統現在無法供普通玩家使用！",
+  "featuregui.home.off": "§8家系統現在可以供所有玩家使用！",
+  "featuregui.home.on": "§8家系統現在無法供普通玩家使用！",
+  "featuregui.tpa.off": "§8tpa系統現在可以供所有玩家使用！",
+  "featuregui.tpa.on": "§8tpa系統現在無法供普通玩家使用！",
+  "leftclick": "§a左鍵點擊 §c>> §7切換",
+
+  "feature.validvalues": "§c第二個參數應為以下之一 §4[warp.system, home.system, rank.system, tpa.system]",
+  "feature.enable": "§7已啟用 §a%n 系統",
+  "feature.disable": "§7已禁用 §a%n 系統",
+
+  "rename.error": "§c您的主手中沒有物品",
+
+  "anvil.gui.one.word": "只能輸入一個詞",
+
+  "rank.gui.not.ready": "§7尚未準備好創建等級",
+  "rank.gui.ready": "§a準備好創建等級",
+
+  "god.on": "§7您現在處於無敵模式",
+  "god.off": "§7您不再處於無敵模式",
+
+  "god.on.other": "§a%p §7現在處於無敵模式",
+  "god.off.other": "§a%p §7不再處於無敵模式",
+
+  "time.success": "§7時間已設置為 §a%d",
+
+  "tpdeny.player": "§7您拒絕了來自玩家 §a%p §7的tpa請求",
+  "tpdeny.target": "§a%p §7拒絕了您的tpa請求",
+
+  "back.other.success": "§a%p §7已被傳送回上一個位置",
+
+  "night.vision.add": "§7已給予夜視效果給 §a%p",
+  "night.vision.remove": "§7已移除夜視效果從 §a%p",
+
+  "language.set.success": "§7語言已成功設置為 §a%l\n要查看更改，請§a/rl §7伺服器",
+  "language.set.error": "§c目前只有§6%l §c可用的語言",
+
+  "world.success": "§7您已傳送到 §a%w",
+  "world.error": "§c該世界不存在"
+}

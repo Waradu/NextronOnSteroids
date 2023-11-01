@@ -1,0 +1,9 @@
+# currently available en, de
+language: en
+
+# %p represents the players name
+# for a full color pallet open cmd and type 'color ?'
+join_message: '&2[&a+&2] &7%p'
+leave_message: '&4[&c-&4] &7%p'
+Vanished:
+  621755d2-5cf7-48d6-acc6-73b539b66aac: false
